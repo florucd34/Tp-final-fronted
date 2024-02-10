@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Es una landing page diseñada para mostrar mi portfolio laboral ">
+    <meta name="keywords" content="portfolio, landing page, diseño,  html, css, js">
+    <meta name="robots" content="index, nofollow">
+    <meta name="author" content="Flor Uceda">
+    <script src="https://kit.fontawesome.com/2dd850176c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Portfolio Flor Uceda</title>
+</head>
+<body>
+      
+      <div class="contenedor-header">
+        <header>
+               <div class="logo">
+                   <a href="#">FLOR UCEDA</a>
+               </div>
+               <nav id="nav" class="responsive">
+                  <ul>
+                      <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                      <li><a href="#sobremi" onclick="selecionar()">SOBRE MI</a></li>
+                      <li><a href="#habilidades" onclick="selecionar()">HABILIDADES</a></li>
+                      <li><a href="#servicios"onclick="selecionar()">SERVICIOS</a></li>
+                      <li><a href="#contacto"onclick="selecionar()">CONTACTO</a></li>
+                  </ul>
+             </nav>
+             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            
+        </header>
+      </div>
+
+      <section id="inicio" class="inicio">
+        <div class="contenedor-banner">
+             <div class="contenedor-img">
+                 <img src="/uceda-florencia/imagenes/banner-1.jpeg" alt="foto del perfil de la persona que realizó el portfolio">
+             </div>
+             <h1 class="animate__animated animate__rubberBand animate__delay-1s">FLOR UCEDA</h1>
+             <h2>Desarrolladora web - Diseñadora UX/UI</h2>
+        </div>
+      </section>
+
+      <section id="sobremi" class="sobremi">
+               <div class="contenido-seccion">
+                <h2>Sobre Mí</h2>
+                <p><span>Hola, Mi nombre es Flor Uceda.</span> Soy una persona proactiva, organizada y responsable, con buenas relaciones interpersonales. 
+                         Siempre tengo la mejor disposición para la realización de mi trabajo.
+                        Busco introducirme en el mundo IT desde el diseño UX/UI Y FRONTEND.</p>
+                 
+                   <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                      <h3>Datos Personales</h3>
+                      <ul>
+                          <li>
+                               <strong>Cumpleaños</strong>
+                               03-06-1992
+                          </li>
+                           <li>
+                               <strong>Telefono</strong>
+                               3543-518133
+                         </li>
+                          <li>
+                                <strong>Email</strong>
+                                 florenciauceda@yahoo.com
+                         </li>
+                          <li>
+                               <strong>Redes</strong>
+                                Instagram - Facebook 
+                        </li>
+                         <li>
+                            <strong>Ubicación</strong>
+                            Córdoba, Argentina
+                       </li>
+                       <li>
+                            <strong>Cargo</strong>
+                             <span>FREELANCE</span>
+                       </li>
+                   </ul>
+                  </div>
+                  
+                  <!-- Intereses -->
+                   <div class="col">
+                         <h3>Intereses</h3>
+                         <div class="contenedor-intereses">
+                            <div class="intereses">
+                                <i class="fa-solid fa-music"></i>
+                                <span>MÚSICA</span>
+                            </div>
+                           
+                            <div class="intereses">
+                                <i class="fa-solid fa-dumbbell"></i>
+                                <span>GIMNASIO</span>
+                            </div>
+                           
+                            <div class="intereses">
+                                <i class="fa-solid fa-plane"></i>
+                                <span>VIAJAR</span>
+                            </div>
+                          
+                            <div class="intereses">
+                                <i class="fa-solid fa-video"></i>
+                                <span>PELIS</span>
+                            </div>
+                           
+                            <div class="intereses">
+                                <i class="fa-solid fa-user-group"></i>
+                                <span>AMIGOS</span>
+                            </div>
+                            
+                            <div class="intereses">
+                                <i class="fa-solid fa-book"></i>
+                                <span>LIBROS</span>
+                            </div>
+                            
+                            <div class="intereses">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>COMPRAS</span>
+                            </div>
+                           
+                            <div class="intereses">
+                                <i class="fa-solid fa-dog"></i>
+                                <span>ANIMALES</span>
+                            </div>
+                            
+                         </div>
+                      </div>
+                     </div>
+                     <button>
+                        Descargar CV  <i class="fa-solid fa-download"></i>
+                        <span class="cubrir"></span>
+                  </button>
+                </div>
+                 
+            
+      </section>
+      
+      <section class="habilidades" id="habilidades">
+              <div class="contenido-seccion">
+                   <h2>Habilidades</h2>
+                   <div class="fila">
+                    <div class="col">
+                        <h3>Habilidades Tecnicas</h3>
+                        <div class="habilidades">
+                           <span>Javascript</span>
+                            <div class="barra-habilidades">
+                                 <div class="progreso javascript">
+                                      <span>50%</span>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="habilidades">
+                            <span>HTML & CSS</span>
+                             <div class="barra-habilidades">
+                                  <div class="progreso htmlcss">
+                                       <span>80%</span>
+                                  </div>
+                             </div>
+                         </div>
+                         <div class="habilidades">
+                            <span>Desing UI</span>
+                             <div class="barra-habilidades">
+                                  <div class="progreso desingui">
+                                       <span>90%</span>
+                                  </div>
+                             </div>
+                         </div>
+                         <div class="habilidades">
+                            <span>Marketing Digital</span>
+                             <div class="barra-habilidades">
+                                  <div class="progreso marketingdigital">
+                                       <span>70%</span>
+                                  </div>
+                             </div>
+                         </div>
+                         <div class="habilidades">
+                            <span>Publicidad Digital</span>
+                             <div class="barra-habilidades">
+                                  <div class="progreso publicidaddigital">
+                                       <span>95%</span>
+                                  </div>
+                             </div>
+                         </div>
+                    </div>
+                  
+                    <div class="col">
+                        <h3>Conocimiento</h3>
+                        <div class="habilidades">
+                           <span>Prototipado</span>
+                            <div class="barra-habilidades">
+                                 <div class="progreso prototipado">
+                                      <span>80%</span>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="habilidades">
+                            <span>Trabajo en equipo</span>
+                             <div class="barra-habilidades">
+                                  <div class="progreso trabajoenequipo">
+                                       <span>70%</span>
+                                  </div>
+                             </div>
+                         </div>
+                         <div class="habilidades">
+                            <span>Creatividad</span>
+                             <div class="barra-habilidades">
+                                  <div class="progreso creatividad">
+                                       <span>98%</span>
+                                  </div>
+                             </div>
+                         </div>
+                         <div class="habilidades">
+                            <span>Dedicación</span>
+                             <div class="barra-habilidades">
+                                  <div class="progreso dedicacion">
+                                       <span>100%</span>
+                                  </div>
+                             </div>
+                         </div>
+                         <div class="habilidades">
+                            <span>Comunicación</span>
+                             <div class="barra-habilidades">
+                                  <div class="progreso comunicacion">
+                                       <span>65%</span>
+                                  </div>
+                             </div>
+                         </div>
+                    </div>
+                  
+                   </div>
+              </div>
+                     
+      </section>
+      
+       <section id="servicios" class="servicios">
+             <div class="contenido-seccion">
+                <h2>Servicios</h2>
+                <div class="galeria">
+                     <div class="proyecto">
+                      <img src="imagenes/diseño-ux-ui.jpg" alt="hoja con wireframe de baja fidelidad">
+                      <div class="cubrir">
+                           <h3>Diseño UX-UI</h3>
+                      </div>
+                     </div>
+                     <div class="proyecto">
+                        <img src="imagenes/frontend.jpg" alt="computadora con codigos html">
+                        <div class="cubrir">
+                             <h3>Frontend</h3>
+                        </div>
+                       </div>
+                       <div class="proyecto">
+                        <img src="imagenes/marketing-digital.jpg" alt="tablet con el calendario">
+                        <div class="cubrir">
+                             <h3>Marketing digital</h3>
+                        </div>
+                       </div>
+                       <div class="proyecto">
+                        <img src="imagenes/publicidad-digital.jpg" alt="teclado de computadora">
+                        <div class="cubrir">
+                             <h3>Publicidad digital</h3>
+                        </div>
+                       </div>
+                       <div class="proyecto">
+                        <img src="imagenes/diseño-creativo.jpg" alt="paletas de colores">
+                        <div class="cubrir">
+                             <h3>Diseño Creativo</h3>
+                        </div>
+                       </div>
+                       <div class="proyecto">
+                        <img src="imagenes/python.jpg" alt="el logo de python">
+                        <div class="cubrir">
+                             <h3>Análisis de datos</h3>
+                        </div>
+                       </div>
+                </div>
+             </div>
+       </section>
+     
+       <section id="contacto" class="contacto">
+                <div class="contenido-seccion">
+                     <h2>Contacto</h2>
+                     <div class="fila">
+                          <div class="col">
+                            <form action="" method="post" id="form">
+                              <input type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido">
+                              <input type="text" id="telefono" name="telefono" placeholder="Número de telefono">
+                              <input type="text" id="email" name="email" placeholder="Dirección de correo">
+                              <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                              <button type="submit">
+                                     Enviar mensaje <i class="fa-solid fa-paper-plane"></i>
+                                    <span class="cubrir"></span>
+                                    <p class="advertencia" id="advertencia"></p>
+                              </button>
+                          </div>
+                        </form>
+                          <div class="col">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13653.796874608688!2d-64.31808325612793!3d-31.18055558399704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94327e2d267ff525%3A0x9d7eaeef132dff3e!2zUsOtbyBDZWJhbGxvcywgQ8OzcmRvYmE!5e0!3m2!1ses!2sar!4v1706984370953!5m2!1ses!2sar" width="600"
+                                         height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                            <div class="info">
+                                  <ul>
+                                       <li>
+                                            <i class="fa-solid fa-location-dot"></i>
+                                              Río Ceballos, Córdoba
+                                       </li>
+                                      
+                                       <li>
+                                            <i class="fa-solid fa-mobile"></i>
+                                               Llamanos: 3543-518133
+                                       </li>
+                                      
+                                       <li>
+                                             <i class="fa-solid fa-envelope"></i>
+                                             Email: florenciauceda@yahoo.com
+                                       </li>
+                                  </ul>
+                            </div>
+                          </div>
+                     </div>
+                </div>
+       </section>
+     
+       <footer>
+                <a href="#inicio" class="arriba"><i class="fa-solid fa-circle-chevron-up"></i></a>
+                <p> Todos los derechos reservados &copy; 2024.</p>
+                <p>Flor Uceda</p>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+      </footer>
+     
+      <script src="main.js"></script>
+</body>
+</html>
